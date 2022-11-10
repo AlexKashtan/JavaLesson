@@ -41,7 +41,7 @@ public class Maxmin implements MethodsForTask{
         return array;
     }
 
-    static int average(int[] array) {
+    public int average(int[] array) {
         int averageTotal = 0;
         int summaryArray = 0;
         for (int i = 0; i < array.length; i++) {

@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Посчитать сумму всех чисел в массиве
 //Определить максимальное и минимальное значение содержащееся в массиве и вывести на консоль
 
-public class Task9 {
+public class Task9 implements MethodsForTask{
     public static void main(String[] args) {
         int[] myArrayNine = new int[3];
         Scanner console = new Scanner(System.in);
@@ -21,5 +21,10 @@ public class Task9 {
         System.out.println("Сумма массива: " + massive.summary(myArrayNine));
         System.out.println("Максимальное число: " + massive.maximum(myArrayNine));
         System.out.println("Минимальное число: " + massive.minimum(myArrayNine));
+    }
+
+    @Override
+    public int maximum(int[] array) {
+        return 0;
     }
 }
